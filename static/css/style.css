@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+}
+form {
+    text-align: center;
+    margin-top: 400px;
+}
+#date_label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 300;
+
+}
+#date_button {
+    width: 350px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: darkblue;
+    color: #ffffff;
+    margin-top: 20px;
+}

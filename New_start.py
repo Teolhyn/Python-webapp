@@ -10,7 +10,7 @@ def averagePriceSince(dateBought: str, data: pd.DataFrame):
     listOfIndexes = data.index[data['DateTime'].str.contains(dateBought)]
     startFrom = int(listOfIndexes[-1])
     averagePrice = data['Hinta'].iloc[startFrom:].mean()
-    return averagePrice
+    return averagePrice 
 
 if __name__ == "__main__":
     date = "2023-04-16"
