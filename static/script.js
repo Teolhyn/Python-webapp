@@ -51,4 +51,4 @@ function setInputFilter(textbox, inputFilter, errMsg) {
 // Adds the restriction to our price field.
 setInputFilter(document.getElementById("priceId"), function(value) {
    return /^\d*\.?\d*$/.test(value); // Allow digits and '.' only, using a RegExp.
- }, "Only digits and '.' are allowed");
+ }, "Käytä vain numeroita ja pistettä.");
