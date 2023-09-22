@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-{% block body %}
-<div class="row">
+  </head>
+  <body>
+    <div class="row">
+      <div class="span6">
+        <form method="POST">
+          <label for="date" id="date_label"
+            >Koska teit määräaikaisen sähkösopimuksen?</label
+          >
+          <br />
+          <input type="date" name="date" id="dateId" min="2023-03-16" />
+          <br />
 
-	<div class="span6">
-	    <form method="POST">
-	        
-	        <label for="date" id="date_label">Koska teit määräaikaisen sähkösopimuksen?</label>
-            <br>
-	        <input type="date" name="date" id="date" min="2023-03-16">
-	        <br>
-	        
-	        <input type="submit" value="Laske" id="date_button">
-	    </form>
-	</div>
-</div>
-{% endblock %}
-</body>
+          <input type="submit" value="Laske" id="date_button" />
+        </form>
+      </div>
+      <p id="result">{{ value }}</p>
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
 </html>

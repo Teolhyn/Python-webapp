@@ -1,15 +1,19 @@
 body {
     background-color: bisque;
 }
+
 form {
     text-align: center;
     margin-top: 400px;
 }
+
 #date_label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font: 300;
+    font-size: 30px;
 
 }
+
 #date_button {
     width: 350px;
     height: 100px;
@@ -19,4 +23,11 @@ form {
     background-color: darkblue;
     color: #ffffff;
     margin-top: 20px;
+}
+
+#result {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 300;
+    font-size: 30 px;
 }
